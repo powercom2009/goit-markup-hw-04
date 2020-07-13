@@ -498,6 +498,8 @@ li .focus-hover:focus {
 .backgroun-block {
   background: #f5f4fa;
   padding-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .feature-li::before {
