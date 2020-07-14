@@ -417,6 +417,9 @@ li .focus-hover:focus {
   display: block;
   align-items: center;
   margin-top: 0px;
+  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button {
@@ -516,9 +519,17 @@ li .focus-hover:focus {
   padding-top: 94px;
 }
 
-.background-hero {
-  background: rgba(47, 48, 58, 0.8);
+.background-image {
   height: 600px;
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-image: url(../images/Header.jpg);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-rgba {
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .background-footer {
