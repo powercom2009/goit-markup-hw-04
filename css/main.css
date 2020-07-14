@@ -495,11 +495,9 @@ li .focus-hover:focus {
   padding-bottom: 94px;
 }
 
-.backgroun-block {
+.background-block {
   background: #f5f4fa;
   padding-top: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .feature-li::before {
@@ -534,7 +532,6 @@ li .focus-hover:focus {
 
 .footer-box {
   height: 252px;
-  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
