@@ -44,12 +44,20 @@ p .text {
   color: var(--primery-text-color);
 }
 
-.headerlogo {
+.headerlogo.top {
   color: #2196f3;
 }
 
-.footerlogo {
+.footerlogo.top {
   color: #000000;
+}
+
+.headerlogo.bottom {
+  color: #2196f3;
+}
+
+.footerlogo.bottom {
+  color: #ffffff;
 }
 
 .headerlogo,
@@ -326,6 +334,7 @@ li .focus-hover:focus {
   color: var(--title-text-color);
   margin: 0px;
   padding-left: 24px;
+  padding-top: 30px;
 }
 
 .paragraf-title {
