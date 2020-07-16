@@ -303,6 +303,9 @@ li .focus-hover:focus {
 .button-nav {
   display: flex;
   justify-content: center;
+  margin-top: 94px;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 
 .feature-button:hover {
@@ -620,4 +623,17 @@ ul.project.list.feauture-list {
 
 .footer {
   display: flex;
+}
+
+.icon-networks {
+  display: flex;
+}
+
+hr {
+  min-width: 1600px;
+  height: 0px;
+  left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid #ececec;
 }
