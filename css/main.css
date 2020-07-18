@@ -106,6 +106,8 @@ ul {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .second-title {
@@ -206,7 +208,9 @@ img {
 }
 
 .ghost {
-  visibility: hidden;
+  margin: 0px;
+  height: 0;
+  overflow: hidden;
 }
 
 .focus-hover {
@@ -267,7 +271,6 @@ li .focus-hover:focus {
 }
 
 .direction-class {
-  padding-top: 60px;
   flex-direction: column;
   margin-right: 0px;
   align-items: baseline;
@@ -300,12 +303,17 @@ li .focus-hover:focus {
   height: 38px;
 }
 
+.button-indent {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .button-nav {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-right: auto;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .feature-button:hover {
@@ -376,10 +384,20 @@ li .focus-hover:focus {
   margin-right: auto;
 }
 
+.site-nav-address {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .site-nav-main,
 .site-nav-address,
 .site-header-content {
   display: flex;
+}
+
+.header-content {
+  padding-top: 25px;
+  padding-bottom: ;
 }
 
 .site-header-content {
@@ -396,7 +414,7 @@ li .focus-hover:focus {
 
 .site-nav-item .focus-hover {
   display: block;
-  line-height: 64px;
+  line-height: 16px;
 }
 
 .site-header-content {
@@ -406,6 +424,8 @@ li .focus-hover:focus {
 .site-nav-main {
   margin-left: 87px;
   padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .auth {
@@ -421,8 +441,9 @@ li .focus-hover:focus {
   letter-spacing: 0.06em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
   padding-top: 200px;
-  margin-bottom: 43px;
+  padding-bottom: 43px;
 }
 
 .hero {
@@ -458,10 +479,6 @@ li .focus-hover:focus {
   margin-bottom: 0px;
 }
 
-.project {
-  width: calc(1170 / 4);
-}
-
 .feature-li {
   margin-right: 30px;
   width: 270px;
@@ -491,11 +508,11 @@ li .focus-hover:focus {
   margin-right: 0px;
 }
 
-.liworker:last-child {
+.list-worker:last-child {
   margin-right: 0px;
 }
 
-.liworker {
+.list-worker {
   margin-right: 30px;
   text-align: center;
   background: #ffffff;
@@ -509,7 +526,6 @@ li .focus-hover:focus {
   display: flex;
   padding: 0px;
   margin-top: 0px;
-  margin-bottom: 94px;
 }
 
 .companys-list {
@@ -518,22 +534,27 @@ li .focus-hover:focus {
   margin-right: 30px;
 }
 
-.client-list {
-  padding-top: 94px;
-}
-
-.project-block {
+.project-indent {
   padding-bottom: 94px;
 }
 
-.background-block {
+.button-indent {
+  padding-bottom: 50px;
+}
+
+.background-indent {
   background: #f5f4fa;
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-indent {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .background-image {
-  height: 600px;
-  max-width: 1600px;
+  width: 1600px;
   background-repeat: no-repeat;
   background-image: url(../images/Header.jpg);
   margin-left: auto;
@@ -542,10 +563,6 @@ li .focus-hover:focus {
 
 .background-rgba {
   background: rgba(47, 48, 58, 0.8);
-}
-
-.background-footer {
-  background: #2f303a;
 }
 
 .feature-li::before {
@@ -574,15 +591,11 @@ li .focus-hover:focus {
   background-image: url(../images/astronaut.svg);
 }
 
-.social-networks {
-  padding-left: 0px;
-}
-
 .address-bottom {
   padding: 0;
 }
 
-.litem {
+.card-list {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -605,28 +618,36 @@ li .focus-hover:focus {
   flex-wrap: wrap;
 }
 
-.litem:nth-child(3n) {
+.card-list:nth-child(3n) {
   margin: 0px;
   margin-bottom: 30px;
 }
 
-ul.project.list.feauture-list {
-  padding: 0px;
-  margin: 0px;
+.card-list:nth-child(7n) {
+  margin-bottom: 0px;
 }
 
-.flex-footer {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+.card-list:nth-child(8n) {
+  margin-bottom: 0px;
+}
+
+.card-list:nth-child(9n) {
+  margin-bottom: 0px;
+}
+
+ul.project.feauture-list {
+  padding: 0px;
+  margin: 0px;
 }
 
 .footer {
   display: flex;
 }
 
-.icon-networks {
-  display: flex;
+.footer-indent {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 hr {
@@ -636,4 +657,34 @@ hr {
   margin-top: 0px;
   margin-bottom: 0px;
   border: 1px solid #ececec;
+}
+
+.icon-networks:hover {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+.icon-networks:focus {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+.social-network {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.svg {
+  height: 20px;
+  width: 20px;
+}
+
+.icon-networks {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 16px;
+  margin-bottom: 25px;
 }
