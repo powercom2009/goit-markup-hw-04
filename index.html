@@ -40,18 +40,20 @@
           <address class="auth">
             <ul class="site-nav-address">
               <li class="site-nav-address-item">
-                <a href="mailto:info@devstudio.com" class="contact-nav"
-                  ><img
-                    src="./images/envelope(hover).png"
-                    alt="envelope"
-                  />info@devstudio.com</a
-                >
+                <a href="mailto:info@devstudio.com" class="contact-nav">
+                  <svg width="16px" height="11px" style="margin-right: 8px;">
+                    <use href="./images/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
               </li>
               <li class="site-nav-address-item">
-                <a href="tel:+380961111111" class="contact-nav"
-                  ><img src="./images/smartphone.svg" alt="smartphone" />+38 096
-                  111 11 11</a
-                >
+                <a href="tel:+380961111111" class="contact-nav">
+                  <svg width="10" height="15" style="margin-right: 8px;">
+                    <use href="./images/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 096 111 11 11
+                </a>
               </li>
             </ul>
           </address>
@@ -76,28 +78,51 @@
           <!--Нужно скрыть заголовок h2-->
           <h2 class="ghost">Наши преймущества</h2>
           <ul class="feauture-item">
-            <li class="feature-li icon-antenna">
+            <li>
+              <div class="background-icon">
+                <svg class="icon-size">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Внимание к деталям</h3>
               <p class="list-item">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="feature-li icon-clock">
+
+            <li>
+              <div class="background-icon">
+                <svg class="icon-size">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Пунктуальность</h3>
               <p class="list-item">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="feature-li icon-diagram">
+
+            <li>
+              <div class="background-icon">
+                <svg class="icon-size">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Планирование</h3>
               <p class="list-item">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="feature-li icon-astronaut">
+
+            <li>
+              <div class="background-icon">
+                <svg class="icon-size">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Современные технологии</h3>
               <p class="list-item">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -131,14 +156,18 @@
       <section class="background-indent">
         <div class="container">
           <h2 class="second-title">Наша команда</h2>
+
           <ul class="apps">
             <li class="list-worker">
               <img src="images/img1.png" alt="Николай Кучеренко" />
               <h3 class="name-title">Николай Кучеренко</h3>
               <p class="worker">Product Designer</p>
-              <ul class="social-network">
+              <ul class="social-network-list">
                 <li class="icon-networks">
-                  <a href="http://instagram.com">
+                  <a
+                    href="http://instagram.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg>
@@ -146,7 +175,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Twitter.com">
+                  <a
+                    href="http://Twitter.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg>
@@ -154,7 +186,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Facebook.com">
+                  <a
+                    href="http://Facebook.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg>
@@ -162,7 +197,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Linkedin.com">
+                  <a
+                    href="http://Linkedin.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg>
@@ -175,9 +213,12 @@
               <img src="images/img2.png" alt="Ольга Иванова" />
               <h3 class="name-title">Ольга Иванова</h3>
               <p class="worker">Frontend Developer</p>
-              <ul class="social-network">
+              <ul class="social-network-list">
                 <li class="icon-networks">
-                  <a href="http://instagram.com">
+                  <a
+                    href="http://instagram.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg>
@@ -185,7 +226,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Twitter.com">
+                  <a
+                    href="http://Twitter.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg>
@@ -193,7 +237,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Facebook.com">
+                  <a
+                    href="http://Facebook.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg>
@@ -201,7 +248,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Linkedin.com">
+                  <a
+                    href="http://Linkedin.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg>
@@ -214,9 +264,12 @@
               <img src="images/img3.png" alt="Андрей Шевченко" />
               <h3 class="name-title">Андрей Шевченко</h3>
               <p class="worker">Marketing</p>
-              <ul class="social-network">
+              <ul class="social-network-list">
                 <li class="icon-networks">
-                  <a href="http://instagram.com">
+                  <a
+                    href="http://instagram.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg>
@@ -224,7 +277,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Twitter.com">
+                  <a
+                    href="http://Twitter.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg>
@@ -232,7 +288,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Facebook.com">
+                  <a
+                    href="http://Facebook.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg>
@@ -240,7 +299,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Linkedin.com">
+                  <a
+                    href="http://Linkedin.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg>
@@ -253,9 +315,12 @@
               <img src="images/img4.png" alt="Иван Николаев" />
               <h3 class="name-title">Иван Николаев</h3>
               <p class="worker">UI Designer</p>
-              <ul class="social-network">
+              <ul class="social-network-list">
                 <li class="icon-networks">
-                  <a href="http://instagram.com">
+                  <a
+                    href="http://instagram.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg>
@@ -263,7 +328,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Twitter.com">
+                  <a
+                    href="http://Twitter.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg>
@@ -271,7 +339,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Facebook.com">
+                  <a
+                    href="http://Facebook.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg>
@@ -279,7 +350,10 @@
                 </li>
 
                 <li class="icon-networks">
-                  <a href="http://Linkedin.com">
+                  <a
+                    href="http://Linkedin.com"
+                    class="background-social-network"
+                  >
                     <svg class="svg">
                       <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg>
