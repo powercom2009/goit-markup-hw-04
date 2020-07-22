@@ -108,6 +108,7 @@ ul {
   color: var(--primery-text-color);
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-right: 30px;
 }
 
 .second-title {
@@ -183,10 +184,6 @@ ul {
   padding-right: 10px;
 }
 
-.contact-nav > img {
-  padding-right: 10px;
-}
-
 .address-bottom > img {
   padding-right: 10px;
 }
@@ -227,10 +224,12 @@ img {
 
 .contact-nav:hover {
   color: var(--accent-color);
+  --color5: var(--accent-color);
 }
 
 .contact-nav:focus {
   color: var(--accent-color);
+  --color5: var(--accent-color);
 }
 
 .contact-bottom:hover {
@@ -442,7 +441,7 @@ li .focus-hover:focus {
   padding-bottom: 43px;
 }
 
-.hero {
+.he {
   margin: 0 auto;
   display: block;
   align-items: center;
@@ -585,24 +584,18 @@ li .focus-hover:focus {
   margin-right: 0px;
 }
 
-.hero-indent {
+.hero {
   max-width: 1600px;
-  background-repeat: no-repeat;
-  background-image: url(../images/Header.jpg);
-  margin: 0 auto;
-  display: block;
-  align-items: center;
-  margin-top: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 94px;
-}
-
-.background-rgba {
-  background: rgba(47, 48, 58, 0.8);
-  max-width: 1600px;
-  margin: 0 auto;
-  padding-bottom: 200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../Images/Header.jpg');
+  margin-bottom: 94px;
 }
 
 .background-icon {
